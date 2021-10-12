@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/main.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <header>
+         <nav>
+            <h1 class="logo">
+               <a href="index.html"><img src="img/rccrLogo.png" /></a>
+            </h1>
+            <ul>
+               <li><a href="listaTiendas.html" class="active">Tiendas</a></li>
+               <li><a href="acerca.html">Nosotros</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <a href="listaReview.html" class="back">Regresar</a>
+         <div class="store">
+            <img src="http://placehold.jp/100x50.png" alt="" />
+            <div class="info">
+               <p class="strName">Tienda no 3</p>
+               <p>Electrodomesticos</p>
+               <p>Pasillo no 33</p>
+            </div>
+            <div class="score">
+               <p>3.9</p>
+            </div>
+         </div>
+         <div class="new">
+            <p class="frmT">Review</p>
+            <form action="" method="">
+               <ul id="id_score">
+                  <li>
+                     <label for="id_score_0">
+                        <input
+                           type="radio"
+                           name="score"
+                           value="1"
+                           required=""
+                           id="id_score_0"
+                        />
+                     </label>
+                  </li>
+                  <li>
+                     <label for="id_score_1">
+                        <input
+                           type="radio"
+                           name="score"
+                           value="2"
+                           required=""
+                           id="id_score_1"
+                        />
+                     </label>
+                  </li>
+                  <li>
+                     <label for="id_score_2">
+                        <input
+                           type="radio"
+                           name="score"
+                           value="3"
+                           required=""
+                           id="id_score_2"
+                        />
+                     </label>
+                  </li>
+                  <li>
+                     <label for="id_score_3">
+                        <input
+                           type="radio"
+                           name="score"
+                           value="4"
+                           required=""
+                           id="id_score_3"
+                        />
+                     </label>
+                  </li>
+                  <li>
+                     <label for="id_score_4">
+                        <input
+                           type="radio"
+                           name="score"
+                           value="5"
+                           required=""
+                           id="id_score_4"
+                        />
+                     </label>
+                  </li>
+               </ul>
+               <label for="id_name">Nombre:</label>
+               <input type="text" name="name" maxlength="150" id="id_name" />
+               <label for="id_description">Descripcion:</label>
+               <textarea
+                  name="description"
+                  cols="40"
+                  rows="10"
+                  id="id_description"
+               ></textarea>
+               <button class="add">Agregar</button>
+            </form>
+         </div>
+      </main>
+   </body>
+</html>
